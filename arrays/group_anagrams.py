@@ -3,7 +3,7 @@
   
 - While iterating through the array, if the sorted version of the current string already exists, append the string to that group.
   
-- Time Complexity: $O(m*nlogn)$, where $m$ is the length of the input array and $n$ is the length of each individual string.
+- Time Complexity: O(m*nlogn), where m is the length of the input array and n is the length of each individual string.
 '''
 
 class Solution:
