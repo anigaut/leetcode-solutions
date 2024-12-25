@@ -4,8 +4,6 @@
 #
 # - Time complexity: $O(n)
 #
-
-
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         num_count = {}
