@@ -1,3 +1,7 @@
+'''
+Standard sliding window problem - quite easy
+'''
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         min_size = float("inf")

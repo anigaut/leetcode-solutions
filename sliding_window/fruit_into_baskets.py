@@ -1,3 +1,7 @@
+'''
+Standard sliding window problem, quite easy
+'''
+
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
         tree_counts = {}
