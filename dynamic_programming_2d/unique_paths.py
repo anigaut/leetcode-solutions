@@ -8,9 +8,3 @@ class Solution:
                 memo[i][j] += memo[i][j + 1] + memo[i + 1][j]
 
         return memo[0][0]
-
-
-test_cases = [(3, 7), (3, 2)]
-sol = Solution()
-for case in test_cases:
-    print(sol.uniquePaths(case[0], case[1]))
