@@ -28,7 +28,7 @@ class Solution:
         
         if max(min_times) == float("inf"):
             return -1
-        return max(min_times)
+        return max(min_times)  # pyright: ignore[reportReturnType]
 
 sol = Solution()
 test_cases = [
